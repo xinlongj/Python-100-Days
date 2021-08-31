@@ -12,6 +12,7 @@ def main():
     for i in range(2, 20):
         f += [f[i - 1] + f[i - 2]]
         # f.append(f[i - 1] + f[i - 2])
+    print(f)
     for val in f:
         print(val, end=' ')
 

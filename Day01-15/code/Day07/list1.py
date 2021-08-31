@@ -14,10 +14,10 @@ def main():
     fruits = ['grape', '@pple', 'strawberry', 'waxberry']
     print(fruits)
     # 通过下标访问元素
-    print(fruits[0])
-    print(fruits[1])
-    print(fruits[-1])
-    print(fruits[-2])
+    print('fruits[0] = ' + fruits[0])
+    print('fruits[1] = ' + fruits[1])
+    print('fruits[-1] = ' + fruits[-1])
+    print('fruits[-2] = ' + fruits[-2])
     # print(fruits[-5]) # IndexError
     # print(fruits[4])  # IndexError
     fruits[1] = 'apple'
@@ -27,12 +27,15 @@ def main():
     fruits.insert(0, 'banana')
     print(fruits)
     # 删除元素
+    print('开始删除')
     del fruits[1]
+    print(fruits)
     fruits.pop()
+    print(fruits)
     fruits.pop(0)
+    print(fruits)
     fruits.remove('apple')
     print(fruits)
-
 
 if __name__ == '__main__':
     main()
