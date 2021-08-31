@@ -5,10 +5,14 @@ Version: 0.1
 Author: 骆昊
 Date: 2018-02-27
 """
-import math
+# import math
+#
+# radius = float(input('请输入圆的半径: '))
+# perimeter = 2 * math.pi * radius
+# area = math.pi * radius * radius
+# print('周长: %.2f' % perimeter)
+# print('面积: %.2f' % area)
 
-radius = float(input('请输入圆的半径: '))
-perimeter = 2 * math.pi * radius
-area = math.pi * radius * radius
-print('周长: %.2f' % perimeter)
-print('面积: %.2f' % area)
+import math
+f = float(input('请输入圆的半径r'))
+print('圆的面积是：%.2f' % (math.pi * f * f))

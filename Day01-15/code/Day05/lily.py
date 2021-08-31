@@ -14,3 +14,11 @@ for num in range(100, 1000):
     high = num // 100
     if num == low ** 3 + mid ** 3 + high ** 3:
         print(num)
+
+
+for i in range(100, 1000, 1):
+    high = i // 100
+    mid = i //100 % 10
+    low = i % 10
+    if i == high ** 3 + mid ** 3 + low ** 3:
+        print('%d is lily number' % i)

@@ -8,7 +8,7 @@ Date: 2018-03-06
 
 
 def main():
-    scores = {'骆昊': 95, '白元芳': 78, '狄仁杰': 82}
+    scores = {'骆昊': 95, '白元芳': 78, '狄仁杰': 82} % 键值对组成的就是字典
     print(scores['骆昊'])
     print(scores['狄仁杰'])
     for elem in scores:

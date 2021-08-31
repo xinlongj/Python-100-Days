@@ -9,11 +9,22 @@ Author: 骆昊
 Date: 2018-02-28
 """
 
-x = float(input('x = '))
+# x = float(input('x = '))
+# if x > 1:
+#     y = 3 * x - 5
+# elif x >= -1:
+#     y = x + 2
+# else:
+#     y = 5 * x + 3
+# print('f(%.2f) = %.2f' % (x, y))
+
+
+import math
+x = float(input('please input x:'))
 if x > 1:
-    y = 3 * x - 5
-elif x >= -1:
-    y = x + 2
+    output = 3 * x -5
+elif -1 < x < 1:
+    output = x + 2
 else:
-    y = 5 * x + 3
-print('f(%.2f) = %.2f' % (x, y))
+    output = 5 * x + 3
+print(output)

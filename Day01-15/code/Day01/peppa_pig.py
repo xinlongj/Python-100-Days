@@ -187,7 +187,6 @@ def setting():
     setup(840, 500)
     speed(10)
 
-
 def main():
     """主函数"""
     setting() 
